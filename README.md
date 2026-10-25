@@ -1,187 +1,167 @@
-# Full Stack Student Management System (SMS)
-## Devixo Solutions — Summer Internship 2026
-### Web Development Internship — Week 3 (Task 03)
+# 🎓 Full Stack Student Management System
+### Devixo Solutions Summer Internship — Week 3 (Task 03)
+**Domain:** Web Development Internship  
+**Intern Name:** Sehar Fatima  
+**Submission:** Task 03 – Full Stack Student Management System  
 
 ---
 
-## 📌 Project Overview
-The **Full Stack Student Management System (SMS)** is an enterprise-standard educational management platform engineered to resolve the administrative, security, and accessibility bottlenecks of legacy academic portals.
+## 📋 Project Overview
 
-Developed using **Option 1 (PHP, Laravel 10, MySQL, JavaScript ES6+, HTML5, CSS3)**, the platform replaces uncontrolled public self-registration with **Single Administrator Governance** and enforces **Two-Factor Authentication (2FA) via 6-digit Gmail OTP verification** for all faculty and student accounts.
+An enterprise-grade, responsive **Full Stack Student Management System** developed in accordance with the **Devixo Solutions Summer Internship** Week 3 requirements. The system implements robust Role-Based Access Control (Single Admin, Teacher, and Student), automated Gmail OTP two-factor verification for student/teacher registration, permanent MySQL data persistence, interactive statistics dashboards, and complete CRUD functionality across students, instructors, and academic courses.
 
----
-
-## 👤 Intern & Submission Information
-- **Intern Name:** Sehar Fatima
-- **Internship Domain:** Web Development Internship
-- **Task Designation:** Task 03 – Full Stack Student Management System
-- **Host Organization:** Devixo Solutions
-- **Submission Date:** October 2026
-- **Repository:** [https://github.com/seharfatima/fullstack-student-management-system](https://github.com/seharfatima/fullstack-student-management-system)
+[![PHP](https://img.shields.io/badge/PHP-8.1+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
+[![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0%20%2F%20MariaDB-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org)
+[![Responsive](https://img.shields.io/badge/Design-Mobile%20%2F%20Tablet%20%2F%20Desktop-10B981?style=for-the-badge)](https://laravel.com)
 
 ---
 
-## 🚀 Key Features
+## ✨ Features Breakdown
 
-### 1. Single Administrator Governance
-- Public registration routes are completely removed to protect institutional integrity.
-- Only the authenticated sovereign Admin (`admin@devixo.com`) can provision and manage Student and Teacher profiles.
+### 🔐 1. Authentication & Role-Based Access Control (RBAC)
+- **Single Administrator Architecture**: Centralized management where only 1 authorized Admin maintains control over the entire institution.
+- **Gmail OTP Verification**: When the Admin registers a new student or teacher, an automated 6-digit OTP is generated and dispatched to their Gmail address.
+- **Interactive OTP Modal**: Upon initial sign-in, unverified users are prompted with an OTP modal dialog to authenticate their email before accessing portal features.
+- **Role-Guarded Dashboards**: Separate middleware-protected dashboard experiences for Admin, Instructors, and Students.
+- **Secure Sign Out**: Complete session cleanup and CSRF token invalidation upon logout.
 
-### 2. Two-Factor Authentication (Gmail OTP 2FA)
-- Automated 6-digit OTP code dispatch directly to Gmail inboxes upon account creation.
-- Centrally floating frosted-glass modal intercepts unverified sign-in attempts, mandating OTP verification before access is granted.
+### 👨‍🎓 2. Student Management Module
+- **Add Student**: Intuitive modal with validation (Name, Email, Roll No, Password, and Course Enrollment). Auto-generates unique institutional roll numbers (`STU-YYYY-XXX`) if omitted.
+- **Edit Student**: Instant updates to student profiles, credentials, and course assignments.
+- **Delete Student**: Permanent deletion with relational database cleanup (detaching courses cleanly).
+- **Search Student**: Live multi-field search filtering by Student Name, Email, or Roll Number with query string persistence.
+- **View Student Details**: AJAX-powered modal displaying complete profile data, registration timestamp, and a list of enrolled courses.
+- **Pagination**: Clean, responsive 8-records-per-page pagination with URL search parameter preservation.
 
-### 3. Comprehensive CRUD Modules
-- **Student Management:** Add new students with roll number indexing, edit profiles, view details, search dynamically, and delete records with confirmation safeguards.
-- **Teacher & Faculty Management:** Onboard instructors, view qualifications, and link assigned courses.
-- **Course & Quota Management:** Create course catalog entries, assign instructors, and dynamically allocate student enrollment quotas via pivot relations.
+### 👩‍🏫 3. Teacher / Instructor Module
+- **Add Teacher**: Register faculty members with name, email, credentials, and automatic Gmail OTP.
+- **Edit Teacher**: Update instructor details and assign/reassign department roles.
+- **Delete Teacher**: Safe deletion with automatic course disassociation.
+- **Instructor Directory**: Filterable list with course assignments and active status.
 
-### 4. Interactive Metric Dashboard
-- Real-time gradient counter cards displaying Total Students, Teachers, Courses, and AI Grading status.
-- Recent registrations ledger with avatar badges and quick-action modals.
+### 📚 4. Course Management Module
+- **Add Course**: Create courses with Course Title, Course Code, Description, Active Status, and assigned Instructor.
+- **Edit & Update**: Modify catalog data and reallocate teachers on the fly.
+- **Delete Course**: Safely remove courses and detach enrolled students without orphaned records.
+- **Teacher Assignment**: Quick one-click instructor assignment and removal.
+- **Student Enrollment**: Dedicated per-student course enrollment manager.
 
-### 5. Multi-Device Responsive UI/UX
-- Mobile drawer navigation with backdrop blur and touch targets.
-- Responsive table wrappers (`.table-wrap`) preventing horizontal overflow on smartphone screens.
-- Asynchronous form submissions with loading spinners and alert banners (no full page reload required).
-
----
-
-## 🛠️ Technology Stack (Option 1)
-
-| Layer | Technology | Version | Purpose / Architectural Role |
-| :--- | :--- | :--- | :--- |
-| **Backend Framework** | Laravel (PHP) | 10.x / PHP 8.1+ | MVC architecture, Eloquent ORM, CSRF protection, and Dependency Injection. |
-| **Database** | MySQL / MariaDB | 8.0+ / 10.4+ | Permanent relational persistence, indexing, foreign keys, and ACID compliance. |
-| **Frontend Views** | Blade Templates | Laravel 10 Engine | Master layout inheritance (`layouts/app.blade.php`), components, and XSS filtering. |
-| **Client Scripting** | JavaScript (ES6+) | Modern Vanilla JS | Asynchronous Fetch API for OTP verification, search filters, and modal handling. |
-| **Design & Styling** | CSS3 Custom Tokens | Modern Standards | CSS variables (`--deep`, `--mid`, `--snow`), Flexbox/Grid layouts, Font Awesome 6. |
-| **Environment** | XAMPP & Composer | Apache 2.4, PHP 8 | Local development server virtualization, Artisan CLI, and package management. |
-
----
-
-## 🗄️ Database Architecture & Schema
-
-The system utilizes a relational schema in MySQL:
-- `exam_users`: Stores user credentials (`id`, `name`, `email`, `password`, `role`, `rollno`, `email_verified_at`, `timestamps`).
-- `courses`: Defines courses (`id`, `name`, `code`, `description`, `teacher_id` foreign key).
-- `course_user`: Many-to-many pivot table managing student course enrollments (`user_id`, `course_id`, `assign_count`).
-- `quizzes` & `quiz_attempts`: Tracks assessments, student submissions, and proctored records.
+### 📊 5. Professional Dashboard
+- **Dynamic Statistics Cards**: Real-time counter metrics for Total Students, Total Teachers, Total Courses, and System Quizzes.
+- **Recent Registrations**: Quick-glance overview of recent student additions with course counts and direct actions (View Details, Edit, Delete).
+- **Global Search Bar**: Instant real-time filtering directly from the dashboard home.
+- **Responsive Layout**: Designed from the ground up for Mobile (320px–480px), Tablet (768px–1024px), and Desktop/Laptop displays.
 
 ---
 
-## ⚙️ Setup & Installation Instructions
+## 🛠️ Technology Stack (Option 1 Selected)
 
-Follow these steps to run the application locally on Windows (XAMPP environment):
+- **Frontend**: HTML5, Vanilla CSS3 (Custom Design System), JavaScript (ES6+), Font Awesome 6 Icons, Google Fonts (Bricolage Grotesque & DM Sans).
+- **Backend**: PHP 8.1+, Laravel 10.x Web Framework.
+- **Database**: MySQL / MariaDB (Local permanent database storage with Eloquent ORM).
+- **Authentication**: Session-based RBAC with RoleMiddleware and Sanctum API fallback.
+- **Email / OTP**: Remote LMS OTP Service Integration with Gmail dispatch.
+
+---
+
+## 🚀 Setup & Installation Guide
 
 ### Prerequisites
-1. **PHP >= 8.1** with PDO, cURL, OpenSSL, and Mbstring extensions enabled.
-2. **Composer** installed globally.
-3. **MySQL Server** (via XAMPP or standalone).
+- PHP >= 8.1 with `pdo_mysql`, `curl`, and `mbstring` extensions enabled.
+- Composer installed.
+- MySQL / MariaDB (via XAMPP or standalone service).
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/seharfatima/fullstack-student-management-system.git
-cd fullstack-student-management-system
+git clone https://github.com/seharfatima433/web-cheating-detection.git
+cd web-cheating-detection
 ```
 
-### Step 2: Install Dependencies
+### Step 2: Install PHP Dependencies
 ```bash
 composer install
 ```
 
-### Step 3: Configure Environment Variables
+### Step 3: Configure Environment
 Copy `.env.example` to `.env`:
 ```bash
 cp .env.example .env
+php artisan key:generate
 ```
-Open `.env` and verify your database credentials:
+
+Configure your MySQL connection in `.env`:
 ```env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=student_management_db
+DB_DATABASE=laravel
 DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-### Step 4: Generate Application Key
+### Step 4: Run Migrations & Seed Data
 ```bash
-php artisan key:generate
+# Start MySQL in XAMPP
+# Then run:
+php artisan migrate --seed
 ```
 
-### Step 5: Run Database Migrations & Seeders
-Create the database in MySQL (`student_management_db`), then execute:
+### Step 5: Start Development Server
 ```bash
-php artisan migrate
-php artisan db:seed
+php artisan serve --port=8080
 ```
-
-### Step 6: Start Local Development Server
-```bash
-php artisan serve
-```
-The application will be live at: **`http://localhost:8000`**
+Open your browser and navigate to: `http://127.0.0.1:8080`
 
 ---
 
-## 🔑 Default Credentials
+## 🔑 Default Administrator Credentials
 
-| Portal / Role | Email | Password | Access Level |
-| :--- | :--- | :--- | :--- |
-| **Administrator** | `admin@devixo.com` | `admin123` | Full CRUD, user provisioning, course allocations, analytics. |
-| **Faculty / Teacher** | `teacher@devixo.com` | `teacher123` | Course quizzes, grading, student performance monitoring. |
-| **Student** | `student@devixo.com` | `student123` | Enrolled courses, quiz attempts, real-time results. |
+| Role | Email Address | Password |
+|---|---|---|
+| **System Admin** | `admin@devixo.com` | `admin123` |
 
-*Note: For new accounts, enter the 6-digit OTP code dispatched to the registered Gmail to complete verification.*
+*(Note: Teachers and Students are registered directly by this Administrator from the Admin Panel).*
 
 ---
 
-## 📁 Project Architecture & Key Files
+## 📁 Project Architecture & Structure
 
-```text
+```
 ├── app/
 │   ├── Http/
 │   │   ├── Controllers/Web/
-│   │   │   ├── AdminController.php      # Student, Teacher, Course CRUD & OTP dispatch
-│   │   │   ├── AuthController.php       # Login session & asynchronous OTP verification
-│   │   │   ├── TeacherController.php    # Instructor dashboard & course quizzes
-│   │   │   └── StudentController.php    # Student portal & course view
+│   │   │   ├── AdminController.php    # Student, Teacher, Course CRUD & Dashboard
+│   │   │   ├── AuthController.php     # Session Auth & Gmail OTP Verification
+│   │   │   ├── TeacherController.php  # Instructor Dashboard & Quizzes
+│   │   │   └── StudentController.php  # Student Portal & Enrolled Courses
 │   │   └── Middleware/
-│   │       └── RoleMiddleware.php       # Role-Based Access Control (Admin/Teacher/Student)
+│   │       └── RoleMiddleware.php     # Role-based route guard
 │   └── Models/
-│       ├── ExamUser.php                 # User model with course relationships
-│       └── Course.php                   # Course model
+│       ├── ExamUser.php               # User model (Admin, Teacher, Student)
+│       └── Course.php                 # Academic course model & relations
 ├── database/
-│   ├── migrations/                      # Relational schema migrations
-│   └── seeders/DatabaseSeeder.php       # Admin account seeder
-├── resources/
-│   └── views/
-│       ├── layouts/app.blade.php        # Master layout (sidebar drawer, color variables)
-│       ├── auth/login.blade.php         # Split login screen & Gmail OTP modal
-│       ├── admin/
-│       │   ├── dashboard.blade.php      # Stats counters & recent registrations
-│       │   ├── students.blade.php       # Student directory & CRUD modals
-│       │   └── courses.blade.php        # Course management & assignments
-│       └── student/ & teacher/          # Role portals
-└── routes/web.php                       # Role-prefixed route definitions
+│   ├── migrations/                    # Database schemas for users, courses, relations
+│   └── seeders/DatabaseSeeder.php     # Default admin, sample teachers & students
+├── resources/views/
+│   ├── layouts/app.blade.php          # Main responsive layout with sidebar & drawer
+│   ├── auth/login.blade.php           # Secure login with OTP modal dialog
+│   └── admin/
+│       ├── dashboard.blade.php        # Statistics, search, and recent registrations
+│       ├── students.blade.php         # Student management with pagination & search
+│       ├── teachers.blade.php         # Teacher management directory
+│       ├── courses.blade.php          # Course catalog & instructor assignments
+│       └── student-courses.blade.php  # Individual student enrollment editor
+└── routes/web.php                     # Route definitions with role middleware guards
 ```
 
 ---
 
-## 🌟 Bonus Evaluation Criteria Compliance
+## 👩‍💻 Author & Internship Details
 
-- ✅ **Permanent MySQL Persistence:** All records preserved across sessions via Eloquent relational models.
-- ✅ **Role-Based Access Control (RBAC):** Distinct route prefixes (`/admin`, `/teacher`, `/student`) protected by `RoleMiddleware`.
-- ✅ **Dynamic Filtering & Pagination:** Instant table search and badge counts for institutional data.
-- ✅ **Form Validation & Loading Spinners:** Real-time feedback, button disabled states, and toast notifications.
-
----
-
-## 📄 Submission Deliverables
-- **PDF Technical Report:** `Devixo_Task03_FullStack_SMS_Report.pdf` (Formatted 6-page comprehensive report).
-- **DOCX Word Report:** `Devixo_Task03_FullStack_SMS_Report.docx` (Fully editable Microsoft Word report).
-- **Source Code Repository:** Complete Laravel 10 codebase.
-- **Documentation:** `README.md` (Setup guide, architectural breakdown, credentials).
-#   f u l l s t a c k - s t u d e n t - m a n a g e m e n t - s y s t e m  
- 
+- **Intern Name:** Sehar Fatima  
+- **Internship:** Devixo Solutions Summer Internship  
+- **Task:** Task 03 – Full Stack Student Management System  
+- **GitHub:** [@seharfatima433](https://github.com/seharfatima433)  
+- **Repository:** [web-cheating-detection](https://github.com/seharfatima433/web-cheating-detection)  
