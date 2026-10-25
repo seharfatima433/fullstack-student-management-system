@@ -1,0 +1,208 @@
+[11-Aug-2026 17:48:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[16-Aug-2026 07:12:56 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[16-Aug-2026 11:48:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[17-Aug-2026 02:55:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[18-Aug-2026 10:51:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[27-Aug-2026 15:38:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[31-Aug-2026 12:26:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[31-Aug-2026 12:26:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[03-Sep-2026 07:28:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[10-Sep-2026 20:58:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[12-Sep-2026 21:03:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[14-Sep-2026 14:12:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[14-Sep-2026 19:09:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[17-Sep-2026 02:13:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[17-Sep-2026 12:10:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[18-Sep-2026 19:56:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[20-Sep-2026 20:58:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[21-Sep-2026 16:27:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[21-Sep-2026 17:50:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[24-Sep-2026 22:12:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[26-Sep-2026 20:14:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[28-Sep-2026 13:27:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[28-Sep-2026 21:26:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[30-Sep-2026 21:54:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[01-Oct-2026 17:25:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[02-Oct-2026 19:06:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[02-Oct-2026 23:38:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[04-Oct-2026 01:50:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[04-Oct-2026 08:27:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[04-Oct-2026 08:27:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[04-Oct-2026 21:43:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[05-Oct-2026 17:40:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[06-Oct-2026 20:24:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[08-Oct-2026 21:30:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[09-Oct-2026 10:02:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[10-Oct-2026 15:51:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[10-Oct-2026 22:40:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[11-Oct-2026 00:25:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[12-Oct-2026 19:03:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[14-Oct-2026 21:26:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[15-Oct-2026 05:26:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[15-Oct-2026 15:45:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[16-Oct-2026 19:52:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[17-Oct-2026 10:34:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[18-Oct-2026 15:13:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[18-Oct-2026 15:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[18-Oct-2026 22:26:35 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[19-Oct-2026 05:43:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[20-Oct-2026 20:13:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[21-Oct-2026 03:05:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[22-Oct-2026 21:00:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14
+[24-Oct-2026 19:29:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/bootstrap/app.php on line 14

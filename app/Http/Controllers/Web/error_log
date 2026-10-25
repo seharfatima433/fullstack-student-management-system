@@ -1,0 +1,132 @@
+[24-Aug-2026 04:50:37 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/StudentController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/StudentController.php on line 8
+[24-Aug-2026 05:56:12 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctoringReportController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctoringReportController.php on line 10
+[24-Aug-2026 13:56:10 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/TeacherController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/TeacherController.php on line 8
+[24-Aug-2026 15:28:48 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AuthController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AuthController.php on line 9
+[24-Aug-2026 16:39:14 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AdminController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AdminController.php on line 8
+[24-Aug-2026 18:23:56 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctorController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctorController.php on line 9
+[22-Sep-2026 16:07:39 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctoringReportController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctoringReportController.php on line 10
+[22-Sep-2026 16:09:02 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctorController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctorController.php on line 9
+[23-Sep-2026 11:12:44 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AuthController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AuthController.php on line 9
+[24-Sep-2026 13:21:42 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/TeacherController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/TeacherController.php on line 8
+[26-Sep-2026 06:14:48 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/StudentController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/StudentController.php on line 8
+[27-Sep-2026 10:22:37 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AdminController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AdminController.php on line 8
+[27-Sep-2026 11:06:07 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AuthController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AuthController.php on line 9
+[27-Sep-2026 13:57:41 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/TeacherController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/TeacherController.php on line 8
+[27-Sep-2026 21:12:49 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AdminController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AdminController.php on line 8
+[28-Sep-2026 04:47:11 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/StudentController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/StudentController.php on line 8
+[29-Sep-2026 10:02:32 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctoringReportController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctoringReportController.php on line 10
+[01-Oct-2026 18:10:49 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctorController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctorController.php on line 9
+[01-Oct-2026 18:22:45 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctoringReportController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctoringReportController.php on line 10
+[03-Oct-2026 03:43:49 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctorController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctorController.php on line 9
+[06-Oct-2026 22:15:22 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctoringReportController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctoringReportController.php on line 10
+[06-Oct-2026 22:17:28 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AuthController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AuthController.php on line 9
+[07-Oct-2026 00:08:39 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/StudentController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/StudentController.php on line 8
+[11-Oct-2026 12:27:12 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AdminController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AdminController.php on line 8
+[12-Oct-2026 17:00:58 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/StudentController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/StudentController.php on line 8
+[16-Oct-2026 18:41:34 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AuthController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AuthController.php on line 9
+[18-Oct-2026 18:43:33 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AdminController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AdminController.php on line 8
+[22-Oct-2026 18:49:54 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AuthController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AuthController.php on line 9
+[23-Oct-2026 02:58:49 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/TeacherController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/TeacherController.php on line 8
+[23-Oct-2026 03:01:09 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctorController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/ProctorController.php on line 9
+[24-Oct-2026 22:36:44 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/TeacherController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/TeacherController.php on line 8
+[25-Oct-2026 02:18:15 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AuthController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AuthController.php on line 9
+[25-Oct-2026 10:42:50 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AdminController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/devlools/public_html/web-cheating-detection-main/app/Http/Controllers/Web/AdminController.php on line 8
