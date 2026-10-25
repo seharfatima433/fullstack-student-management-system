@@ -75,7 +75,7 @@ An enterprise-grade, responsive **Full Stack Student Management System** develop
 
 ### Step 1: Clone the Repository
 ```bash
-ithub.com/seharfatima433/fullstack-student-management-system
+github.com/seharfatima433/fullstack-student-management-system
 ```
 
 ### Step 2: Install PHP Dependencies
