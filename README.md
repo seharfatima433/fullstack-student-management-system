@@ -112,19 +112,11 @@ php artisan migrate --seed
 ```bash
 php artisan serve --port=8080
 ```
-Open your browser and navigate to: `http://127.0.0.1:8080`
+Open your browser and navigate to: `https://devlura.site/web-cheating-detection-main/public/`
 
 ---
 
-## 🔑 Default Administrator Credentials
 
-| Role | Email Address | Password |
-|---|---|---|
-| **System Admin** | `admin@devixo.com` | `admin123` |
-
-*(Note: Teachers and Students are registered directly by this Administrator from the Admin Panel).*
-
----
 
 ## 📁 Project Architecture & Structure
 
