@@ -75,8 +75,7 @@ An enterprise-grade, responsive **Full Stack Student Management System** develop
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/seharfatima433/web-cheating-detection.git
-cd web-cheating-detection
+ithub.com/seharfatima433/fullstack-student-management-system
 ```
 
 ### Step 2: Install PHP Dependencies
